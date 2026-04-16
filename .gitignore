@@ -1,0 +1,18 @@
+# Research output — generated at runtime, never committed
+research/*
+!research/.gitkeep
+
+# Specialist files generated during runs — users build their own
+.claude/skills/market-recon/_specialists/*.md
+!.claude/skills/market-recon/_specialists/_template.md
+!.claude/skills/market-recon/_specialists/roster.md
+
+# macOS
+.DS_Store
+
+# Obsidian workspace
+.obsidian/
+
+# Jekyll build output
+docs/_site/
+docs/.jekyll-cache/

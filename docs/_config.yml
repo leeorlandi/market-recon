@@ -1,0 +1,26 @@
+title: market-recon
+description: Deploy a coordinated team of AI analysts to research any market.
+url: "https://leeorlandi.github.io"
+baseurl: "/market-recon"
+
+# Demo page uses custom dark layout
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# Markdown
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Exclude from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
